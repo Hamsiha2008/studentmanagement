@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f7fc;
+    margin: 0;
+    padding: 30px;
+    color: #243047;
+}
+
+h1 {
+    text-align: center;
+    color: #ffffff;
+    background: linear-gradient(135deg, #5146e5, #8175f5);
+    padding: 25px;
+    border-radius: 14px;
+    margin-bottom: 30px;
+}
+
+h2 {
+    color: #5146e5;
+    margin-bottom: 20px;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+    background: #5146e5;
+    color: white;
+    padding: 10px 16px;
+    border-radius: 7px;
+    margin: 5px;
+}
+
+a:hover {
+    background: #342bb8;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+    margin-top: 20px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+th {
+    background: #5146e5;
+    color: white;
+    padding: 15px;
+}
+
+td {
+    padding: 13px;
+    text-align: center;
+    border-bottom: 1px solid #e5e7eb;
+}
+
+tr:hover {
+    background: #f0efff;
+}
+
+form {
+    max-width: 500px;
+    margin: 25px auto;
+    padding: 25px;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+}
+
+input, select {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0 16px;
+    box-sizing: border-box;
+    border: 1px solid #ccd2e0;
+    border-radius: 6px;
+}
+
+button {
+    background: #5146e5;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #342bb8;
+}
